@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="process.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="province">Province:</label>
+        <select id="province" name="province" required>
+            <option value="">Select...</option>
+            <option value="ON">Ontario</option>
+            <option value="QC">Quebec</option>
+            <option value="BC">British Columbia</option>
+            
+        </select><br>
+
+        <label for="acceptTerms">
+            <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+            I accept the terms and conditions
+        </label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

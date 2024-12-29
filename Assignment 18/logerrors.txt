@@ -1,0 +1,14 @@
+[{
+	"resource": "/c:/wamp64/www/Assignment 13/PHP/register.php",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "PHP2014",
+	"severity": 8,
+	"message": "Syntax error: unexpected token 'ob_end_flush'",
+	"source": "PHP",
+	"startLineNumber": 74,
+	"startColumn": 1,
+	"endLineNumber": 74,
+	"endColumn": 13
+}]
+
+Syntax error: unexpected token 'ob_end_flush'

@@ -1,0 +1,27 @@
+<?php
+
+$names = [
+    "Alex",
+    "Billy",
+    "Cam",
+    "Dustin",
+    "Edward",
+    "Frank",
+    "Ginny",
+    "Hailey",
+    "Ian",
+    "John"
+];
+
+
+for ($i = 0; $i < count($names); $i++) {
+    echo "Name at position " . ($i + 1) . " is: " . $names[$i] . "<br>";
+}
+?>
+
+<?php
+
+for ($i = count($names) - 1; $i >= 0; $i--) {
+    echo "Name at position " . ($i + 1) . " is: " . $names[$i] . "<br>";
+}
+?>
